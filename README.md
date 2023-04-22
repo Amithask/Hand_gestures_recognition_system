@@ -1,6 +1,6 @@
-**# Hand_gestures_recognition_system**
+# Hand_gestures_recognition_system
 The model was trained on a large dataset of hand gestures and was fine-tuned on our custom dataset. The project was successfully able to recognize a variety of hand gestures including thumb-up, thumb-down, fist, and peace sign. 
-Prerequisites for this project:
+# Prerequisites for this project:
 Python – 3.x (we used Python 3.8.8 in this project)
 OpenCV – 4.5
 Run “pip install opencv-python” to install OpenCV.
@@ -9,10 +9,10 @@ Run “pip install mediapipe” to install MediaPipe.
 Tensorflow – 2.5.0
 Run “pip install tensorflow” to install the tensorflow module.
 Numpy – 1.19.3
-Download Hand Gesture Recognition Project Code
+# Download Hand Gesture Recognition Project Code
 Please download the source code of hand gesture recognition project: Hand Gesture Recognition Code
 
-Steps to solve the project:
+# Steps to solve the project:
 Import necessary packages.
 Initialize models.
 Read frames from a webcam.
