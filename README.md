@@ -91,11 +91,10 @@ mpHands.HAND_CONNECTIONS)
 print(prediction)
         	classID = np.argmax(prediction)
         	className = classNames[classID]
-
-  #show the prediction on the frame
+#show the prediction on the frame
   cv2.putText(frame, className, (10, 50), cv2.FONT_HERSHEY_SIMPLEX,
                	1, (0,0,255), 2, cv2.LINE_AA)
- **Results**
+ # Results
  ![Hand Gesture Recognition System](https://user-images.githubusercontent.com/104434730/233796367-099d67e5-9bb6-4477-9cba-b647a6fc5462.png)
 
 
